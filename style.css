@@ -170,7 +170,7 @@ transform: scaleX(0);
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    width: 800px;
+    width: 100%;
     margin: auto;
     padding-bottom: 10px;
 }
@@ -186,7 +186,7 @@ transform: scaleX(0);
 /* tentoonstellingen */
 
 .tentoonstellingen{
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -254,6 +254,7 @@ p{
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
+    width: 800px;
     box-sizing: border-box;
     transition: 0.5s;
     text-align:left;
@@ -339,4 +340,49 @@ p{
 .coppy{
     color: rgb(215, 215, 255);
     text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+    body{
+        font-size: 16px;
+        width: 100vw;
+    }
+
+    .content{
+        width: 80%;
+    }
+
+    .content > h1{
+        font-size: 180%;
+    }
+
+    main{
+        width: 100vw; 
+        padding: 20px;
+    }
+
+    .fotoslider{
+        width: auto;
+        height: 375;
+    }
+    
+    footer > p{
+        width: 100vw;
+        padding-left: 60px;
+    }
+    .row{
+        display:block;
+    }
+    .westvleugel-col{
+        width:100%;
+    }
+
+    .bezoekers{
+        width: 100%;
+    }
+
+    .info{
+        width: 100%;
+    }
 }
