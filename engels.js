@@ -13,14 +13,14 @@ let current_index = 0;
 
 let lokaties =[ // array
     { // 0 = object
-        "titel":"plaats 0",
+        "titel":"positions 0",
         "image":"img/route/gebouw.png",
         "directions": {
             "noord": 1
         }
     },
     {  //1 = object 
-        "titel":"plaats 1",
+        "titel":"postition 1",
         "image":"img/route/lobby.png",
         "directions": { // object
             "zuid": 0,
@@ -31,7 +31,7 @@ let lokaties =[ // array
 
     },
     {   //2 = object
-        "titel":"plaats 2",
+        "titel":"position 2",
         "image":"img/route/boot-buiten.png",
         "directions": { // object
             "oost": 1,
@@ -39,7 +39,7 @@ let lokaties =[ // array
         }
     },
     {   //3 = object
-        "titel":"plaats 3",
+        "titel":"position 3",
         "image":"img/route/mast.png",
         "directions": { // object
             "zuid": 2,
@@ -48,7 +48,7 @@ let lokaties =[ // array
         }
     },
     {   //4 = object
-        "titel":"plaats 4",
+        "titel":"position 4",
         "image":"img/route/dek.png",
         "directions": { // object
             "zuid":3
@@ -56,7 +56,7 @@ let lokaties =[ // array
     },
 
     {   //5 = object
-        "titel":"plaats 5",
+        "titel":"position 5",
         "image":"img/route/storage.png",
         "directions": { // object
             "zuid": 1,
@@ -67,7 +67,7 @@ let lokaties =[ // array
 
 
     {   //6 = object
-        "titel":"plaats 6",
+        "titel":"position 6",
         "image":"img/route/storage2.png",
         "directions": { // object
             "west": 5,
@@ -75,7 +75,7 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 7",
+        "titel":"position 7",
         "image":"img/route/wapens.png",
         "directions": { // object
             "oost": 5,
@@ -84,14 +84,14 @@ let lokaties =[ // array
     },
 
     {
-        "titel":"plaats 8",
+        "titel":"position 8",
         "image":"img/route/schilderij.png",
         "directions": { // object
             "oost": 7
         }
     },
     {
-        "titel":"plaats 9",
+        "titel":"position 9",
         "image":"img/route/kaas.png",
         "directions": { // object
             "west": 1,
@@ -101,7 +101,7 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 10",
+        "titel":"position 10",
         "image":"img/route/boot-binnen.png",
         "directions": { // object
             "west": 9,
@@ -109,7 +109,7 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 11",
+        "titel":"position 11",
         "image":"img/route/bureu.png",
         "directions": { // object
             "zuid": 12,
@@ -117,7 +117,7 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 12",
+        "titel":"position 12",
         "image":"img/route/bed.png",
         "directions": { // object
             "zuid": 14,
@@ -125,21 +125,21 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 13",
+        "titel":"position 13",
         "image":"img/route/kuiken.png",
         "directions": { // object
             "west": 6,
         }
     },
     {
-        "titel":"plaats 14",
+        "titel":"position 14",
         "image":"img/route/dokter.png",
         "directions": { // object
             "noord": 12
         }
     },
     {
-        "titel":"plaats 15",
+        "titel":"position 15",
         "image":"img/route/eet-tafel.png",
         "directions": { // object
             "west": 16,
@@ -148,14 +148,14 @@ let lokaties =[ // array
         }
     },
     {
-        "titel":"plaats 16",
+        "titel":"position 16",
         "image":"img/route/bestek.png",
         "directions": { // object
             "oost": 15
         }
     },
     {
-        "titel":"plaats 17",
+        "titel":"position 17",
         "image":"img/route/kuiken.png",
         "directions": { // object
             "west": 12

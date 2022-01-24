@@ -219,17 +219,22 @@
 
     </section>
 
-    <div class="Route">
-      <h2>Interactive route</h2>
-      <img id="myimage" src="img/route/gebouw.png" alt="Ingang van de museum" height="100%">
-      <div id="myinteractions">
-        <div id="mytitle">
-          here comes the title
-        </div>
-        <input type="text" id="myinput" autocomplete="off">
-        <input type="button" value="voer in" onclick="getinput()">
-      </div>  
-    </div>
+    <div id="route">
+      <img id="myimage" src="img/0.jpg" height="600px" alt="foto sb">
+      <div id="myinteraction">
+          <div class="knop" id="mytitle">Title comes here</div>
+          <input class="knop" type="text" id="myinput" autocomplete="off">
+          <input  type="button" value="voer in" onclick="getinput()">
+          <h3 class="knop">Choose your directions:</h3>
+          <nav class="knop">
+              <button id="knopNoord" onclick="goDirection('noord')">North</button>
+              <button id="knopWest" onclick="goDirection('west')">West</button>
+              <button id="knopOost" onclick="goDirection('oost')">East</button>
+              <button id="knopZuid" onclick="goDirection('zuid')">South</button>
+          </nav>
+          <img src="img/map_compass.png" id="mapimage"  alt="">
+      </div>
+  </div>
 
     <!--reviews-->
 
@@ -331,7 +336,7 @@
     <h3 class="coppy">© Het Scheepvaartmuseum 2021</h3>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="engels.js"></script>
 </body>
 
 </html>
