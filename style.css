@@ -327,6 +327,17 @@ p{
 
 }
 
+.Route{
+    height: 95vh;
+    width: 100%;
+    
+
+}
+
+.knop{
+    margin-left:500px;
+}
+
 
 .Route > img:hover{
     transform: none;

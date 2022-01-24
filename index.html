@@ -227,17 +227,22 @@
 
     </section>
 
-    <div class="Route">
-      <h2>Interactive route</h2>
-      <img id="myimage" src="img/route/gebouw.png" alt="Ingang van de museum" height="100%">
-      <div id="myinteractions">
-        <div id="mytitle">
-          Hier komt de titel
-        </div>
-        <input type="text" id="myinput" autocomplete="off">
-        <input type="button" value="voer in" onclick="getinput()">
-      </div>  
-    </div>
+    <div id="route">
+      <img id="myimage" src="img/0.jpg" height="600px" alt="foto sb">
+      <div id="myinteraction">
+          <div class="knop" id="mytitle">hier komt de titel</div>
+          <input class="knop" type="text" id="myinput" autocomplete="off">
+          <input  type="button" value="voer in" onclick="getinput()">
+          <h3 class="knop">kies welke richting je op wilt:</h3>
+          <nav class="knop">
+              <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+              <button id="knopWest" onclick="goDirection('west')">West</button>
+              <button id="knopOost" onclick="goDirection('oost')">Oost</button>
+              <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+          </nav>
+          <img src="img/map_compass.png" id="mapimage"  alt="">
+      </div>
+  </div>
 
     <!--reviews-->
 
